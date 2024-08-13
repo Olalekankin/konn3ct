@@ -9,11 +9,15 @@ module.exports = {
     extend: {
       colors: {
         primary: '#227451',
-        secondary: '#9747FF',
+        secondary: '#e5e5e5',
         reed: '#CC525F',
+        darkGray: '#2D3440',
+        darkerGray: '#424242',
+        darkText: '#373131',
+        liteText: '#ACACAC',
       },
       fontFamily: {
-        inter:  ["Inter", "sans-serif"]
+        inter: ['Inter', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
