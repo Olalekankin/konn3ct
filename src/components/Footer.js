@@ -1,7 +1,6 @@
+'use client'
 import React from 'react'
-import Image from 'next/image'
-import { GoDeviceCameraVideo } from 'react-icons/go'
-import { LuMicOff } from "react-icons/lu"
+import { LuMicOff } from 'react-icons/lu'
 import { RxDividerVertical } from 'react-icons/rx'
 import { IoEllipsisVertical } from 'react-icons/io5'
 const footer = () => {
@@ -24,7 +23,7 @@ const footer = () => {
             <LuMicOff className='text-2xl' />
           </button>
           <button className='rounded-full border border-white flex justify-center items-center h-12 w-12'>
-           <img src="/asset/camera.svg" alt="camera-icon" />
+            <img src='/asset/camera.svg' alt='camera-icon' />
           </button>
           <button className='rounded-full border border-white flex justify-center items-center h-12 w-12'>
             <img src='/asset/present.svg' alt='' />

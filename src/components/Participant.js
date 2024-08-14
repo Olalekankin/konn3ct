@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { LuWifi } from 'react-icons/lu'
 const Participant = () => {
@@ -56,28 +57,27 @@ const Participant = () => {
             </div>
           </div>
           <div className='relative min-w-[232px] min-h-[191px] max-w-3xl max-h-full h-full  aspect-h-1'>
-           <img
-             src='/asset/image2.png'
-             alt='participant-image'
-             className='rounded-3xl object-cover w-full h-full'
-           />
-           <div className='absolute z-20 bg-black rounded-full py-1 px-2.5 flex space-x-2 items-center bottom-4 left-3'>
-             <p className='text-white'>Akanji J</p>
-             <LuWifi className='text-base text-primary' />
-           </div>
+            <img
+              src='/asset/image2.png'
+              alt='participant-image'
+              className='rounded-3xl object-cover w-full h-full'
+            />
+            <div className='absolute z-20 bg-black rounded-full py-1 px-2.5 flex space-x-2 items-center bottom-4 left-3'>
+              <p className='text-white'>Akanji J</p>
+              <LuWifi className='text-base text-primary' />
+            </div>
           </div>
           <div className='relative min-w-[232px] min-h-[191px] max-w-3xl max-h-full h-full  aspect-h-1'>
-           <img
-             src='/asset/image1.png'
-             alt='participant-image'
-             className='rounded-3xl object-cover w-full h-full'
-           />
-           <div className='absolute z-20 bg-black rounded-full py-1 px-2.5 flex space-x-2 items-center bottom-4 left-3'>
-             <p className='text-white'>Akanji J</p>
-             <LuWifi className='text-base text-primary' />
-           </div>
+            <img
+              src='/asset/image1.png'
+              alt='participant-image'
+              className='rounded-3xl object-cover w-full h-full'
+            />
+            <div className='absolute z-20 bg-black rounded-full py-1 px-2.5 flex space-x-2 items-center bottom-4 left-3'>
+              <p className='text-white'>Akanji J</p>
+              <LuWifi className='text-base text-primary' />
+            </div>
           </div>
-          
         </div>
       </div>
     </div>
