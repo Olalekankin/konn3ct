@@ -1,9 +1,8 @@
-// The dashboard header
 import React from 'react'
 import Image from 'next/image'
 import { FiUsers } from 'react-icons/fi'
 
-const header = () => {
+const Header = ({ onOpenModal, isModalOpen }) => {
   return (
     <div className='bg-white w-full py-6 px-14 font-inter h-24 box-border'>
       <div className='flex justify-between items-center'>
@@ -30,9 +29,17 @@ const header = () => {
               Start Recording
             </span>
           </button>
-          <button className='border border-darkerGray rounded-xl px-3 py-2 flex items-center space-x-2.5 h-12 box-border'>
-            <FiUsers className='text-darkerGray text-2xl'/>
-            <span className='text-base font-semibold text-darkerGray'>5</span>
+          {/* participant button */}
+          <button
+            onClick={onOpenModal}
+            className={`${
+              isModalOpen
+                ? 'border-none text-white bg-primary'
+                : 'border border-darkerGray text-darkerGray hover:border-none hover:text-white hover:bg-primary'
+            } rounded-xl px-3 py-2 flex items-center space-x-2.5 h-12 box-border transition-colors ease-in-out duration-700`}
+          >
+            <FiUsers className='text-2xl' />
+            <span className='text-base font-semibold'>5</span>
           </button>
         </div>
       </div>
@@ -40,4 +47,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
