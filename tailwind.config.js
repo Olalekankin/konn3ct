@@ -9,12 +9,17 @@ module.exports = {
     extend: {
       colors: {
         primary: '#227451',
+        pFade2: '#47896D',
+        pFade5: '#2274518C',
+        pLite: '#ACC691C',
+        bblack: '#1B1B1B',
         secondary: '#e5e5e5',
         reed: '#CC525F',
         darkGray: '#2D3440',
         darkerGray: '#424242',
         darkText: '#373131',
         liteText: '#ACACAC',
+        opBlack: '#00000033',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

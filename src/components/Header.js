@@ -5,7 +5,7 @@ import { FiUsers } from 'react-icons/fi'
 
 const header = () => {
   return (
-    <nav className='bg-white w-full py-6 px-14 font-inter'>
+    <div className='bg-white w-full py-6 px-14 font-inter h-24 box-border'>
       <div className='flex justify-between items-center'>
         <div className='flex items-center space-x-2.5'>
           <Image src='/asset/logo.png' width={144} height={48} alt='Logo' />
@@ -36,7 +36,7 @@ const header = () => {
           </button>
         </div>
       </div>
-    </nav>
+    </div>
   )
 }
 
