@@ -1,9 +1,9 @@
 'use client'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Participant from '@/components/participant'
 import { useState } from 'react'
 import Modal from '@/components/Modal'
+import Participant from '@/components/participant'
 
 export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false)
