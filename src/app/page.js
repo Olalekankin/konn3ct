@@ -7,7 +7,6 @@ import Participant from '@/components/Participant'
 
 export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false)
-
   const openModal = () => setModalOpen(true)
   const closeModal = () => setModalOpen(false)
 
